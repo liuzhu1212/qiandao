@@ -14,7 +14,7 @@ const notify = $.isNode() ? require('./sendNotify') : '';
 	const config = {
 		username: process.env.XM_SPORT_USERNAME,
 		password: process.env.XM_SPORT_PASSWORD,
-		step_size: randomFriendPin(15000, 20000),
+		step_size: randomFriendPin(18000, 20000),
 		user_id: '',
 		app_token: '',
 	};
