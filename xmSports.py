@@ -19,9 +19,9 @@ def main_handler(event, context):
 
     }
     data = {
-        'phone':phone,
-        'password':password,
-        'step':step
+        'phone':16609121998,
+        'password':9626690783a,
+        'step':int(random.uniform(18000,19000))
     }
     print(data)
     response = requests.post(url=url,headers=headers,data=data).text
